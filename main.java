@@ -2,7 +2,7 @@ import java.awt.*;
 
 public class main {
     public static Robot b;
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws AWTException {
+        b = new Robot();
     }
 }
